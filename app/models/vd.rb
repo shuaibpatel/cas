@@ -1,0 +1,2 @@
+class Vd < ApplicationRecord
+end

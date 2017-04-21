@@ -1,0 +1,12 @@
+<h1>Welcome to Ruby Application Consuming APIs</h1>
+
+
+
+<p>Click Below to Find Ruby Gems</p>
+<%= form_tag('searchgem', method: 'post') do %>
+<%= label_tag(:search_gem, 'Search for gem:') %>
+<%= text_field_tag(:search_gem) %>
+<%= submit_tag('Search gem') %>
+<% end %>
+
+
